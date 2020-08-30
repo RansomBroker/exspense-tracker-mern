@@ -2,7 +2,7 @@
 exspense-tracker-mern
 =======
 This Project was Develop with MERN stack, for me learn how MERN work
-i watch this tutorial from [Traversy Medisa](https://www.youtube.com/watch?v=KyWaXA_NvT0) in youtube thanks for Traversy Media :) it was good learning, and this project i was build
+i watch this tutorial from [Traversy Media](https://www.youtube.com/watch?v=KyWaXA_NvT0) in youtube thanks for Traversy Media :) it was good learning, and this project i was build
 
 ## Available Scripts
 
