@@ -7,7 +7,7 @@
     "start": "node server",
     "server": "nodemon server",
     "client": "yarn --cwd ./client start",
-    "dev": "concurrently \"yarn run server \" \" yarn run client\""
+    "dev": "concurrently \"yarn run client \" \" yarn run server\""
   },
   "repository": "https://github.com/RansomBroker/exspense-tracker-mern.git",
   "author": "RansomBroker",

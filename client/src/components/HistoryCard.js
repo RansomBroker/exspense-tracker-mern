@@ -1,5 +1,6 @@
 import React, {useContext} from 'react'
 import {GlobalContext} from '../context/GlobalContext';
+import {numberWithCommas} from '../utils/format';
 
 const HistoryCard = ({transactions}) => {
     const { deleteTransaction } = useContext(GlobalContext)
@@ -10,8 +11,8 @@ const HistoryCard = ({transactions}) => {
         <ul className="list">
             <li className={transactions.amount < 0 ? 'minus-income' : 'plus-income'}>
                 {transactions.text}
-                <span>{sign}${Math.abs(transactions.amount)}</span>
-                <button onClick={() => deleteTransaction(transactions.id)} className="delete-btn">X</button>
+                <span>{sign}${numberWithCommas(Math.abs(transactions.amount))}</span>
+                <button onClick={() => deleteTransaction(transactions._id)} className="delete-btn">X</button>
             </li>
         </ul>
     )
